@@ -1,0 +1,152 @@
+
+.back_image {
+	/*background-image: url("images/pinkScheme.png");*/
+	position: fixed; 
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+	z-index: -1;
+}
+
+.back_size {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	position: relative;
+	font-family: 'Playball', cursive;
+ 	font-size: 60px;
+ 	font-weight: 900;
+ 	text-align: center;
+}
+
+.basics {
+	width: 40%;
+	border: 2px solid black;
+	height: 100px;
+	margin: 25px;
+	
+}
+
+/*MAIN DIV IDS-------*/
+
+#mainDiv {
+	display: block;
+	width: 100%;
+}
+
+#div1 {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff71b5;
+
+}
+
+
+#div2 {
+	position: relative;
+	display: inline-block;
+	background-color: #ff54a7;
+}
+
+#div3 {
+	position: relative;
+	display: inline-block;
+	background-color: #ec5db7;
+}
+
+#div4 {
+	position: relative;
+	display: block;
+	background-color: #E1749F;
+}
+
+#div5 {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #db3082;
+}
+
+#div6 {
+	position: relative;
+	left: 50px;
+	float: left;
+	display: inline-block;
+	background-color: #E14F89;
+}
+
+#div7 {
+	position: relative;
+	right: 50px;
+	float: right;
+	display: inline-block;
+	background-color: #C23F73;
+}
+
+#div8 {
+	position: relative;
+	display: inline-block;
+ 	left: 50%;
+ 	transform: translate(-50%, 0);
+ 	margin-top: 25px;
+	background-color: #973159;
+}
+
+/*SECONDARY DIV IDS*/
+
+
+
+/*#small_1 {
+	background-image: url("images/pinkCream.jpeg");
+}*/
+
+.icon {
+	position: absolute;
+	right: 10px;
+	bottom: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+}
+
+.back_color {
+	/*background-color: #b39192;*/
+	background: rgba(255, 245, 245, .2)
+}
+
+/*TEXT POS. & STYLES---*/
+
+.div_title {
+	position: absolute;
+  	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	font-family: 'Playball', cursive;
+ 	font-size: 30px;
+ 	font-weight: 900;
+}
+#para {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/*TRANSITIONS---*/
+
+.expand {
+	transition: transform .75s;
+	filter: blur(3px);
+}
+
+.expand:hover {
+	
+    transform: scale(2.5) translate(-20px, 0); 
+    filter: blur(0px);
+    
+}
